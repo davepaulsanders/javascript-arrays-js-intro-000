@@ -5,6 +5,7 @@ var array = [element, ...array]
 return array;
 }
 
-function removeElementFromEndOfArray(array){
-  return
+function destructivelyAddElementToBeginningOfArray(array, element){
+  array.push(element);
+  return array;
 }
